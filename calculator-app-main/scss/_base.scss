@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+
+
+    // ### Theme 1
+
+    // #### Backgrounds
+    // (main background)
+    --Very-dark-desaturated-blue: hsl(222, 26%, 31%);
+    // (toggle background, keypad background)
+    --Very-dark-desaturated-blue: hsl(223, 31%, 20%);
+    // (screen background)
+    --Very-dark-desaturated-blue : hsl(224, 36%, 15%);
+
+
+    // #### Keys
+    // (key background)
+    --Desaturated-dark-blue: hsl(225, 21%, 49%);
+    // (key shadow)
+    --Desaturated-dark-blue : hsl(224, 28%, 35%);
+
+    // (key background, toggle)
+    --Red: hsl(6, 63%, 50%);
+    // (key shadow)
+    --Dark-red: hsl(6, 70%, 34%);
+
+    --Light-grayish: hsl(30, 25%, 89%);
+    --Grayish-orange: hsl(28, 16%, 65%);
+
+
+    // #### Text
+    --Very-dark-grayish-blue: hsl(221, 14%, 31%);
+    --White:hsl(0, 0, 100%);
+
+
+    /*********************************\
+        ### MAIN VARIABLES 
+    \*********************************/
+
+    // Background 
+    --bg-color-1:hsl(224, 36%, 15%);
+    --bg-color-2:hsl(223, 31%, 20%);
+    --bg-color-3: hsl(222, 26%, 31%);
+
+    // Text 
+    --text-color-1: #fff;
+    --text-color-2: hsl(221, 14%, 31%);
+
+    // Keys 
+    --default-key-bg-color: hsl(30, 25%, 89%);
+    --default-key-shadow-color: hsl(28, 16%, 65%);
+
+    --res-del-key-bg-color: hsl(225, 21%, 49%);
+    --res-del-key-shadow-color : hsl(224, 28%, 35%);
+
+    --equal-key-bg-color: rgb(208, 63, 47);
+    --equal-key-shadow-color: hsl(6, 70%, 34%);
+
+    --toggle-ball-color: var(--equal-key-bg-color);
+
+
+
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Spartan', sans-serif;
+
+    font-size: 3.2rem;
+
+}
+
+body.theme-light{
+    // ### Theme 2
+
+    // #### Backgrounds
+
+    // (main background)
+    --Light-gray: hsl(0, 0%, 90%);
+    // (toggle background, keypad background)
+    --Grayish-red: hsl(0, 5%, 81%);
+    // (screen background)
+    --Very-light-gray: hsl(0, 0%, 93%);
+
+    // #### Keys
+    // (key background)
+    --Dark-moderate-cyan: hsl(185, 42%, 37%);
+    // (key shadow)
+    --Very-dark-cyan: hsl(185, 58%, 25%);
+    // (key background, toggle)
+    --Orange: hsl(25, 98%, 40%);
+    // (key shadow)
+    --Dark-orange: hsl(25, 99%, 27%);
+
+    // (key background)
+    --Light-grayish-yellow: hsl(45, 7%, 89%);
+    // (key shadow)
+    --Dark-grayish-orange: hsl(35, 11%, 61%);
+
+    // #### Text
+    --Very-dark-grayish-yellow: hsl(60, 10%, 19%);
+    // (text):
+    --White:hsl(0, 0, 100%);
+
+
+    /*********************************\
+        ### MAIN VARIABLES 
+    \*********************************/
+
+    // Background 
+    --bg-color-1:hsl(0, 0%, 93%);
+    --bg-color-2:hsl(0, 5%, 81%);
+    --bg-color-3: hsl(0, 0%, 90%);
+
+    // Text 
+    --text-color-1: hsl(60, 10%, 19%);
+    --text-color-2: #fff;
+
+    // Keys 
+    --default-key-bg-color: hsl(45, 7%, 89%);
+    --default-key-shadow-color: hsl(35, 11%, 61%);
+
+    --res-del-key-bg-color: hsl(185, 42%, 37%);
+    --res-del-key-shadow-color : hsl(185, 58%, 25%);
+
+    --equal-key-bg-color: hsl(25, 98%, 40%);
+    --equal-key-shadow-color: hsl(25, 99%, 27%);
+
+    --toggle-ball-color: var(--equal-key-bg-color);
+
+}
+
+body.theme-purple{
+
+    // ### Theme 3
+
+    // #### Backgrounds
+    // (main background)
+    --Very-dark-violet: hsl(268, 75%, 9%);
+    // (toggle background, keypad background, screen background)
+    --Very-dark-violet : hsl(268, 71%, 12%);
+
+    // #### Keys
+    // (key background)
+    --Dark-violet : hsl(281, 89%, 26%);
+    //  (key shadow)
+    --Vivid-magenta: hsl(285, 91%, 52%);
+
+    // (key background, toggle)
+    --Pure-cyan: hsl(176, 100%, 44%);
+    // (key shadow)
+    --Soft-cyan: hsl(177, 92%, 70%);
+
+    // (key background)
+    --Very-dark-violet : hsl(268, 47%, 21%);
+    // (key shadow)
+    --Dark-magenta: hsl(290, 70%, 36%);
+
+    // #### Text
+    --Light-yellow: hsl(52, 100%, 62%);
+    --Very-dark-blue: hsl(198, 20%, 13%);
+    // (text)
+    --White: hsl(0, 0, 100%);
+
+
+    
+
+    /*********************************\
+        ### MAIN VARIABLES 
+    \*********************************/
+
+    // Background 
+    --bg-color-1:hsl(268, 71%, 12%);
+    --bg-color-2:hsl(268, 71%, 12%);
+    --bg-color-3: hsl(268, 75%, 9%);
+
+    // Text 
+    --text-color-1: hsl(52, 100%, 62%);
+    --text-color-2: hsl(198, 20%, 13%);
+
+    // Keys 
+    --default-key-bg-color: hsl(268, 47%, 21%);
+    --default-key-shadow-color: hsl(290, 70%, 36%);
+
+    --res-del-key-bg-color: hsl(281, 89%, 26%);
+    --res-del-key-shadow-color : hsl(285, 91%, 52%);
+
+    --equal-key-bg-color: hsl(176, 100%, 44%);
+    --equal-key-shadow-color: hsl(177, 92%, 70%);
+
+    --toggle-ball-color: var(--equal-key-bg-color);
+    
+}
